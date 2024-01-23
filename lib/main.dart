@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import './base_nav.dart';
+import './login.dart';
 
 void main() {
   runApp(const Dashboard());
@@ -15,6 +15,6 @@ class Dashboard extends StatelessWidget {
         title: 'Your App Title',
         theme: ThemeData.light(),
         darkTheme: ThemeData.dark(),
-        home: const BasePage());
+        home: const LoginPage());
   }
 }
