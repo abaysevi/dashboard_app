@@ -12,7 +12,7 @@ class Dashboard extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Your App Title',
+        title: 'Dashboard',
         theme: ThemeData.light(),
         darkTheme: ThemeData.dark(),
         home: const LoginPage());

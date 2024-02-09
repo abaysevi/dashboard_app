@@ -24,9 +24,9 @@ class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
     // corrected function name
-    final screenHeight = MediaQuery.of(context).size.height;
+    // final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 64, 0, 75),
+      backgroundColor: const Color.fromARGB(255, 64, 0, 75),
       body: Stack(
         children: [
           const Center(

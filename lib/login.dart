@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text(
+            const Text(
               "odoo",
               style: TextStyle(
                 fontSize: 50.0,
@@ -76,8 +76,8 @@ class _LoginPageState extends State<LoginPage> {
               width: 360.0, // Adjust this width as needed
               child: TextField(
                 controller: _emailController,
-                style: TextStyle(color: Colors.white),
-                decoration: InputDecoration(
+                style: const TextStyle(color: Colors.white),
+                decoration: const InputDecoration(
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                   ),
@@ -96,9 +96,9 @@ class _LoginPageState extends State<LoginPage> {
               width: 360.0, // Adjust this width as needed
               child: TextField(
                 obscureText: true,
-                style: TextStyle(color: Colors.white),
+                style: const TextStyle(color: Colors.white),
                 controller: _passwordController,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(color: Colors.white),
                   ),
@@ -118,7 +118,7 @@ class _LoginPageState extends State<LoginPage> {
               padding: const EdgeInsets.fromLTRB(10, 0, 10, 0),
               child: ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  minimumSize: Size(double.infinity,
+                  minimumSize: const Size(double.infinity,
                       50), // Sets full width, adjust according to layout
                 ),
                 child: const Text('Login'),
